@@ -6,7 +6,7 @@ export default function Home() {
       {/* Aqui va la Portada y descripción */}
       <section>
         <div>
-          <p>Bryan Sigala</p>
+          <h1>Bryan Sigala</h1>
           <p>Hi I'm Bryan Sigala, a Full-Stack Developer from Chihuahua, Mexico. I love having challenges and building new projects</p>
         </div>
         <button>Contact Me</button>
@@ -15,7 +15,7 @@ export default function Home() {
 
         {/* Aqui va el About Me  y Tools/Skills */}
         <div>
-          <p>About Me</p>
+          <h2>About Me</h2>
           <p>My name is Bryan Aaron Sigala Jaime, I'm a Intern from the Computing Systems Engineer Career specialized as a Full-Stack Developer. </p>
         </div>
         <div>
@@ -35,10 +35,10 @@ export default function Home() {
       <section>
 
           <div>
-            <p>Projects</p>
+            <h2>Projects</h2>
             <ul>
               <li>
-                <p>- UniTalent Project </p>
+                <h3>- UniTalent Project </h3>
                 <p>FEB-MAY 2024</p>
                 <p>Me and some friends build an app for Job Oportunities to Interns, so the enterprises don't have difficulties on contact to the students. </p>
                 <ul>
@@ -55,10 +55,10 @@ export default function Home() {
         <section>
 
         <div>
-          <p>Experiencie</p>
+          <h2>Experiencie</h2>
           <ul>
             <li>
-              <p>Encora Spark Internship Program</p>
+              <h3>Encora Spark Internship Program</h3>
               <p>JUN-AUG 2024</p>
               <p>I was member of the 2024B batch of the Internchip Program and participate in some activities for Full-Stack Development. </p>
               <ul>
