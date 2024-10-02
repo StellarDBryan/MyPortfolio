@@ -3,6 +3,7 @@ import { Vortex } from "@/components/ui/vortex";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
 import { BoxesCore } from "@/components/ui/background-boxes";
+import { HeroHighlight } from "@/components/ui/hero-highlight";
 
 export default function Home() { 
 
@@ -10,26 +11,28 @@ export default function Home() {
   <StarsBackground starDensity={0.001} className="absolute inset-0 bg-neutral-800" />
         
   <ShootingStars starColor="#00FFF7" minDelay={500} maxDelay={2000} starWidth={15} starHeight={2} className="absolute inset-0 bg-transparent" />
+  
+  <BoxesCore className="absolute inset-0" >
+  </ BoxesCore>
   */
 
   return (
     <div className="">
       {/* Aqui va la Portada y descripción */}
       <section className="relative w-full h-screen border-2"> 
-        <BoxesCore className="absolute inset-0" >
-        </ BoxesCore>
-        
-        <div className="relative z-20 items-center justify-center h-auto w-auto text-white border-2">
-          <h1 className="text-[4.5rem] text-left font-bold mb-4">
-            Hi, I'm <a className="text-stone-400 hover:text-gray-200">Bryan Sigala</a>!
-          </h1>
-          <p className="text-h6 mb-6 text-left max-w-2xl">
-            I'm a Full-Stack Developer from Chihuahua, Mexico; who loves geek stuff, having challenges and building new projects to learn and grow. 
-          </p>
-        </div>
-        <button className="px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors">
-          Contact Me 
-        </button> 
+        <HeroHighlight  containerClassName="bg-black">
+          <div className="relative z-20 items-center justify-center h-auto w-auto text-white border-2">
+            <h1 className="text-[4.5rem] text-left font-bold mb-4">
+              Hi, I'm <a className="text-stone-400 hover:text-gray-200">Bryan Sigala</a>!
+            </h1>
+            <p className="text-h6 mb-6 text-left max-w-2xl">
+              I'm a Full-Stack Developer from Chihuahua, Mexico; who loves geek stuff, having challenges and building new projects to learn and grow. 
+            </p>
+          </div>
+          <button className="px-6 py-2 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-colors">
+            Contact Me 
+          </button> 
+        </HeroHighlight>
       </section>
       <section>
 
